@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-green-50);
+  color: var(--color-slate-800);
+  min-height: 100vh;
+}
+
+model-viewer::part(default-progress-bar),
+model-viewer::part(default-progress-mask) {
+  display: none !important;
+  opacity: 0 !important;
+  height: 0 !important;
+}

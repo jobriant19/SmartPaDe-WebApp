@@ -52,7 +52,7 @@ export default function Hero({ onStart }: HeroProps) {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center object-cover"
         style={{
-          backgroundImage: "url('public/herobg.png')",
+          backgroundImage: "url('/herobg.png')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent"></div>
